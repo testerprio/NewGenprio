@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ViewProfile Positivecase,Chrome 125.0.0.0,,,2024-06-14 04:45:15,2024-06-14 04:45:42,26.556s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/ViewProfile byMSISN,Chrome 125.0.0.0,,,2024-06-14 04:45:31,2024-06-14 04:45:36,4.482s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Support""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:32,2024-06-14 04:45:32,0.530s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""View Profile""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:32,2024-06-14 04:45:33,0.604s,PASSED
+"setText(findTestObject(""Comet/input formcontrolname"", [""txtInput"":""searchValue""]), msisdn)",Chrome 125.0.0.0,,,2024-06-14 04:45:33,2024-06-14 04:45:34,1.493s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search Customer""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:34,2024-06-14 04:45:35,0.464s,PASSED
+waitForPageLoad(3),Chrome 125.0.0.0,,,2024-06-14 04:45:35,2024-06-14 04:45:35,0.265s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""ViewProfile page"")",Chrome 125.0.0.0,,,2024-06-14 04:45:35,2024-06-14 04:45:36,0.497s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/ViewProfile byNIK,Chrome 125.0.0.0,,,2024-06-14 04:45:36,2024-06-14 04:45:42,5.939s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Support""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:36,2024-06-14 04:45:37,1.028s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""View Profile""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:37,2024-06-14 04:45:38,0.593s,PASSED
+"click(findTestObject(""Comet/div containsClass"", [""classTxt"":""dropdown-label""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:38,2024-06-14 04:45:39,1.067s,PASSED
+"click(findTestObject(""Comet/searchbyNIK""))",Chrome 125.0.0.0,,,2024-06-14 04:45:39,2024-06-14 04:45:39,0.612s,PASSED
+"setText(findTestObject(""Comet/input formcontrolname"", [""txtInput"":""searchValue""]), NIK)",Chrome 125.0.0.0,,,2024-06-14 04:45:39,2024-06-14 04:45:41,1.209s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search Customer""]))",Chrome 125.0.0.0,,,2024-06-14 04:45:41,2024-06-14 04:45:41,0.482s,PASSED
+waitForPageLoad(3),Chrome 125.0.0.0,,,2024-06-14 04:45:41,2024-06-14 04:45:41,0.035s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""ViewProfilebyNIK page"")",Chrome 125.0.0.0,,,2024-06-14 04:45:41,2024-06-14 04:45:42,0.465s,PASSED

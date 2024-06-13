@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ViewProfile byNIK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1db159f4-c710-4781-9f93-847c76e7f090</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd2d8dc3-a0e6-4002-b186-3f95b87f9438</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cea6138-8ebb-44f0-b99b-89dc54650396</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25318e53-b145-45c6-b80c-941ac8c70d91</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'xl.test2@xl.co.id'</defaultValue>
+      <description></description>
+      <id>cd2d8dc3-a0e6-4002-b186-3f95b87f9438</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'2yd739u67HQE'</defaultValue>
+      <description></description>
+      <id>4cea6138-8ebb-44f0-b99b-89dc54650396</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'3003030330310001'</defaultValue>
+      <description></description>
+      <id>25318e53-b145-45c6-b80c-941ac8c70d91</id>
+      <masked>false</masked>
+      <name>NIK</name>
+   </variable>
+</TestCaseEntity>

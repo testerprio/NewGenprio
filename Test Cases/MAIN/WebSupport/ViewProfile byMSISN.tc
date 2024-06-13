@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ViewProfile byMSISN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e64cb5ea-2b22-41e9-95a8-177577479206</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37fdceca-f014-4191-b0d8-40d1c8d529e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0d62c03-6af5-4816-9bb4-e615f65dd1fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a5bd9d4-0ca9-4247-bdb6-e261b2f7aaa4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'xl.test2@xl.co.id'</defaultValue>
+      <description></description>
+      <id>37fdceca-f014-4191-b0d8-40d1c8d529e5</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'2yd739u67HQE'</defaultValue>
+      <description></description>
+      <id>e0d62c03-6af5-4816-9bb4-e615f65dd1fb</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'628175282721'</defaultValue>
+      <description></description>
+      <id>6a5bd9d4-0ca9-4247-bdb6-e261b2f7aaa4</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+</TestCaseEntity>

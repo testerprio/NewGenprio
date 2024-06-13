@@ -17,6 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LIBRARY/Login'), [('user') : 'userxlCenter', ('encripPass') : '2Hwwz7pfpAh0wRp8Z06KTA=='], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Comet/mainMenu', [('txt') : 'Customer Support']))
+
+WebUI.click(findTestObject('Comet/mainMenu child', [('txtMenu') : 'View Profile']))
+
+WebUI.setText(findTestObject('Comet/input formcontrolname', [('txtInput') : 'searchValue']), msisdn)
+
+WebUI.click(findTestObject('Comet/btn containsText', [('txtBtn') : 'Search Customer']))
+
+WebUI.waitForPageLoad(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('ViewProfile page')
 

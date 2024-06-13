@@ -9,4 +9,9 @@
       <initValue>'https://genprio.xl.co.id/login'</initValue>
       <name>URL_Genprio</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://comet.xl.co.id/login'</initValue>
+      <name>URL_Comet</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>85ac00d5-c433-4591-9425-17abc53a04c6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa6186ef-0d9e-4f08-8794-ae74524ffc37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ecea980-3a34-4979-84c6-596d5f312ce9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'userxlCenter'</defaultValue>
+      <description></description>
+      <id>aa6186ef-0d9e-4f08-8794-ae74524ffc37</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'2Hwwz7pfpAh0wRp8Z06KTA=='</defaultValue>
+      <description></description>
+      <id>1ecea980-3a34-4979-84c6-596d5f312ce9</id>
+      <masked>false</masked>
+      <name>encripPass</name>
+   </variable>
 </TestCaseEntity>

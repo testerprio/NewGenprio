@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ViewProfile Positivecase" time="26.556" tests="2" failures="0" errors="0">
+   <testsuite name="ViewProfile Positivecase" tests="2" failures="0" errors="0" time="26.556" skipped="0" timestamp="2024-06-14 04:45:15" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/ViewProfile Positivecase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240614_044504\\ViewProfile Positivecase\\20240614_044504"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240614_044504\\ViewProfile Positivecase\\20240614_044504\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-ViewProfile page.png, keyes\keyes-ViewProfilebyNIK page.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="6441c5ea1a3163b103ee6270cbdcb21b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/WebSupport/ViewProfile byMSISN" time="4.482" classname="Test Cases/MAIN/WebSupport/ViewProfile byMSISN" status="PASSED">
+         <system-out><![CDATA[2024-06-14 04:45:31 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/ViewProfile byMSISN: Test Cases/MAIN/WebSupport/ViewProfile byMSISN
+
+2024-06-14 04:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-14 04:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-14 04:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"View Profile"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-14 04:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-14 04:45:33 - [TEST_STEP][PASSED] - setText(findTestObject("Comet/input formcontrolname", ["txtInput":"searchValue"]), msisdn): Text '628175282721' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-14 04:45:34 - [MESSAGE][PASSED] - Text '628175282721' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-14 04:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search Customer"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-14 04:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-14 04:45:35 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2024-06-14 04:45:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-06-14 04:45:35 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("ViewProfile page"): Taking screenshot successfully
+
+2024-06-14 04:45:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-14 04:45:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-ViewProfile page.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/ViewProfile byNIK" time="5.939" classname="Test Cases/MAIN/WebSupport/ViewProfile byNIK" status="PASSED">
+         <system-out><![CDATA[2024-06-14 04:45:36 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/ViewProfile byNIK: Test Cases/MAIN/WebSupport/ViewProfile byNIK
+
+2024-06-14 04:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-14 04:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-14 04:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"View Profile"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-14 04:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-14 04:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Comet/div containsClass", ["classTxt":"dropdown-label"])): Object: 'Object Repository/Comet/div containsClass' is clicked on
+
+2024-06-14 04:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/div containsClass' is clicked on
+
+2024-06-14 04:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Comet/searchbyNIK")): Object: 'Object Repository/Comet/searchbyNIK' is clicked on
+
+2024-06-14 04:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/searchbyNIK' is clicked on
+
+2024-06-14 04:45:39 - [TEST_STEP][PASSED] - setText(findTestObject("Comet/input formcontrolname", ["txtInput":"searchValue"]), NIK): Text '3003030330310001' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-14 04:45:41 - [MESSAGE][PASSED] - Text '3003030330310001' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-14 04:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search Customer"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-14 04:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-14 04:45:41 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2024-06-14 04:45:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-06-14 04:45:41 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("ViewProfilebyNIK page"): Taking screenshot successfully
+
+2024-06-14 04:45:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-14 04:45:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-ViewProfilebyNIK page.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-14 04:45:15 - [TEST_SUITE][PASSED] - ViewProfile Positivecase: Test Cases/MAIN/WebSupport/ViewProfile byNIK]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LIBRARY/Login'), [('user') : 'userxlCenter', ('encripPass') : '2Hwwz7pfpAh0wRp8Z06KTA=='], 
-    FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'SupportMethod.loginToComet'('', '')
+
+WebUI.click(findTestObject('Comet/mainMenu', [('txt') : 'Customer Support']))
+
+WebUI.click(findTestObject('Comet/mainMenu child', [('txtMenu') : 'Center Approval']))
+
+WebUI.click(findTestObject('Comet/p-dropdown fcn', [('ddName') : 'serviceType']))
+
+CustomKeywords.'SupportMethod.selectRandomlyListobject'(findTestObject('Comet/p-dropdownitem li'))
+
 

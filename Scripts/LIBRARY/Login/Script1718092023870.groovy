@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.URL_Genprio)
+
+WebUI.setText(findTestObject('Login/inputText', [('textfieldName') : 'text']), user)
+
+WebUI.setEncryptedText(findTestObject('Login/inputText', [('textfieldName') : 'password']), encripPass)
+
+WebUI.click(findTestObject('Global/btn', [('btnName') : 'btn-submit', ('txt') : 'Login']))
+
+if (WebUI.verifyElementPresent(findTestObject('Login/p-dropdown', [('dropdownName') : 'businessUnit']), 5)) {
+    WebUI.click(findTestObject('Login/p-dropdown', [('dropdownName') : 'businessUnit']))
+
+    WebUI.click(findTestObject('Login/optionBU'))
+
+    WebUI.click(findTestObject('Global/btn', [('btnName') : 'btn-submit', ('txt') : 'Pilih']))
+}
+
+WebUI.waitForElementPresent(findTestObject('Login/inputOTP4 filled'), 30)
+
+WebUI.click(findTestObject('Global/btn', [('btnName') : 'btn-submit', ('txt') : 'Confirm']))
+
+if (WebUI.verifyElementPresent(findTestObject('Global/p-checkbox', [('ckboxName') : 'acceptTerms']), 15)) {
+    WebUI.check(findTestObject('Global/p-checkbox', [('ckboxName') : 'acceptTerms']))
+
+    WebUI.click(findTestObject('Global/btn', [('btnName') : 'btn-submit', ('txt') : 'Lanjut']))
+}
+
