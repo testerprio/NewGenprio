@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+XLCOnlineApproval Positivecase,Chrome 125.0.0.0,,,2024-06-15 22:33:53,2024-06-15 22:34:37,44.547s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/XLCApproval Searching,Chrome 125.0.0.0,,,2024-06-15 22:34:21,2024-06-15 22:34:25,4.523s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Support""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:21,2024-06-15 22:34:22,0.545s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""Center Approval""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:22,2024-06-15 22:34:22,0.615s,PASSED
+"click(findTestObject(""Comet/p-dropdown fcn"", [""ddName"":""serviceType""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:22,2024-06-15 22:34:23,1.076s,PASSED
+"OtherKeyword.selectObjectBasedOnIndex(findTestObject(""Comet/p-dropdownitem li""), idxService)",Chrome 125.0.0.0,,,2024-06-15 22:34:23,2024-06-15 22:34:24,0.621s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:24,2024-06-15 22:34:25,0.775s,PASSED
+takeFullPageScreenshot(),Chrome 125.0.0.0,,,2024-06-15 22:34:25,2024-06-15 22:34:25,0.454s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/XLCApproval Searching,Chrome 125.0.0.0,,,2024-06-15 22:34:25,2024-06-15 22:34:32,7.068s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Support""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:25,2024-06-15 22:34:29,3.549s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""Center Approval""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:29,2024-06-15 22:34:29,0.565s,PASSED
+"click(findTestObject(""Comet/p-dropdown fcn"", [""ddName"":""serviceType""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:29,2024-06-15 22:34:31,1.199s,PASSED
+"OtherKeyword.selectObjectBasedOnIndex(findTestObject(""Comet/p-dropdownitem li""), idxService)",Chrome 125.0.0.0,,,2024-06-15 22:34:31,2024-06-15 22:34:31,0.496s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:31,2024-06-15 22:34:32,0.761s,PASSED
+takeFullPageScreenshot(),Chrome 125.0.0.0,,,2024-06-15 22:34:32,2024-06-15 22:34:32,0.483s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/XLCApproval Searching,Chrome 125.0.0.0,,,2024-06-15 22:34:32,2024-06-15 22:34:37,4.897s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Support""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:32,2024-06-15 22:34:34,1.343s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""Center Approval""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:34,2024-06-15 22:34:34,0.523s,PASSED
+"click(findTestObject(""Comet/p-dropdown fcn"", [""ddName"":""serviceType""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:34,2024-06-15 22:34:35,1.141s,PASSED
+"OtherKeyword.selectObjectBasedOnIndex(findTestObject(""Comet/p-dropdownitem li""), idxService)",Chrome 125.0.0.0,,,2024-06-15 22:34:35,2024-06-15 22:34:36,0.556s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search""]))",Chrome 125.0.0.0,,,2024-06-15 22:34:36,2024-06-15 22:34:37,0.795s,PASSED
+takeFullPageScreenshot(),Chrome 125.0.0.0,,,2024-06-15 22:34:37,2024-06-15 22:34:37,0.518s,PASSED

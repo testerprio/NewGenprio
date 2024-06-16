@@ -39,9 +39,9 @@ import org.openqa.selenium.Keys as Keys
 
 
 class SupportMethod {
-	
+
 	Random rand = new Random()
-	
+
 	/**
 	 * Refresh browser
 	 */
@@ -83,7 +83,7 @@ class SupportMethod {
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}
-	
+
 	/**
 	 * Select randomly from webElements
 	 * @param listObject
@@ -96,8 +96,8 @@ class SupportMethod {
 		int ranIdx = rand.nextInt(length)
 		listObj[ranIdx].click()
 	}
-	
-	
+
+
 	/**
 	 * Method Login to Comet
 	 * @param text username
@@ -106,8 +106,8 @@ class SupportMethod {
 	 */
 	@Keyword
 	def loginToComet (String user, String pass) {
-		WebUI.openBrowser(GlobalVariable.URL_Comet)	
-		WebUI.maximizeWindow()	
+		WebUI.openBrowser(GlobalVariable.URL_Comet)
+		WebUI.maximizeWindow()
 		WebUI.click(findTestObject('Object Repository/Comet/btn Class', [('className') : 'login']))
 		WebUI.setText(findTestObject('Object Repository/Comet/input name', [('txtName') : 'loginfmt']), user)
 		WebUI.click(findTestObject('Object Repository/Comet/input ID', [('idName') : 'idSIButton9']))
@@ -117,7 +117,7 @@ class SupportMethod {
 		WebUI.click(findTestObject('Object Repository/Comet/input ID', [('idName') : 'idSIButton9']))
 		WebUI.takeScreenshotAsCheckpoint('HomePage')
 	}
-	
+
 	/**
 	 * Method to logout from Comet
 	 * return success logout from Comet

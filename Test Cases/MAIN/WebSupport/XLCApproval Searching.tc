@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>XLCApproval Searching</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a10ab1dd-a024-4947-ac82-340b0446f620</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>286200fa-1123-4d7a-a310-0e4c0cabc5a5</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Comet-XL Approver</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>286200fa-1123-4d7a-a310-0e4c0cabc5a5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>idxServicetype</value>
+      <variableId>8e78b250-282d-49b3-bd5c-ffd8cc8f6f59</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>8e78b250-282d-49b3-bd5c-ffd8cc8f6f59</id>
+      <masked>false</masked>
+      <name>idxService</name>
+   </variable>
+</TestCaseEntity>

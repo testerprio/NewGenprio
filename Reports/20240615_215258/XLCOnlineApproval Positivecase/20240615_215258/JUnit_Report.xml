@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="XLCOnlineApproval Positivecase" time="51.993" tests="3" failures="0" errors="3">
+   <testsuite name="XLCOnlineApproval Positivecase" tests="3" failures="0" errors="3" time="51.993" skipped="0" timestamp="2024-06-15 21:53:10" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/XLCOnlineApproval Positivecase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240615_215258\\XLCOnlineApproval Positivecase\\20240615_215258"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240615_215258\\XLCOnlineApproval Positivecase\\20240615_215258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="4f1e695d7cc460ed723296923cae7235"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="2.794" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="ERROR">
+         <error type="ERROR" message="Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+"/>
+         <system-out><![CDATA[2024-06-15 21:53:37 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:53:40 - [TEST_STEP][ERROR] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:53:40 - [MESSAGE][ERROR] - No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+2024-06-15 21:53:40 - [MESSAGE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-out>
+         <system-err><![CDATA[2024-06-15 21:53:37 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="2.783" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="ERROR">
+         <error type="ERROR" message="Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+"/>
+         <system-out><![CDATA[2024-06-15 21:53:48 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:53:51 - [TEST_STEP][ERROR] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:53:51 - [MESSAGE][ERROR] - No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+2024-06-15 21:53:51 - [MESSAGE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-out>
+         <system-err><![CDATA[2024-06-15 21:53:48 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 3]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="2.647" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="ERROR">
+         <error type="ERROR" message="Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+"/>
+         <system-out><![CDATA[2024-06-15 21:53:59 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-15 21:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-15 21:54:01 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+2024-06-15 21:54:02 - [TEST_STEP][ERROR] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+
+2024-06-15 21:54:02 - [MESSAGE][ERROR] - No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+
+2024-06-15 21:54:02 - [MESSAGE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at XLCApproval Searching.run(XLCApproval Searching:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718463178996.run(TempTestSuite1718463178996.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-out>
+         <system-err><![CDATA[2024-06-15 21:53:59 - [TEST_CASE][ERROR] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 4]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-15 21:53:10 - [TEST_SUITE][ERROR] - XLCOnlineApproval Positivecase: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-out>
+      <system-err><![CDATA[2024-06-15 21:53:10 - [TEST_SUITE][ERROR] - XLCOnlineApproval Positivecase: Test Cases/MAIN/WebSupport/XLCApproval Searching FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: OtherKeyword.selectObjectBasedOnIndex() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String) values: [TestObject - 'Object Repository/Comet/p-dropdownitem li', 2]
+Possible solutions: selectObjectBasedOnIndex(com.kms.katalon.core.testobject.TestObject, int)]]></system-err>
+   </testsuite>
+</testsuites>

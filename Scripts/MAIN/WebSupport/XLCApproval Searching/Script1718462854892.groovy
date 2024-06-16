@@ -17,14 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'SupportMethod.loginToComet'('', '')
-
 WebUI.click(findTestObject('Comet/mainMenu', [('txt') : 'Customer Support']))
 
 WebUI.click(findTestObject('Comet/mainMenu child', [('txtMenu') : 'Center Approval']))
 
 WebUI.click(findTestObject('Comet/p-dropdown fcn', [('ddName') : 'serviceType']))
 
-CustomKeywords.'SupportMethod.selectRandomlyListobject'(findTestObject('Comet/p-dropdownitem li'))
+CustomKeywords.'OtherKeyword.selectObjectBasedOnIndex'(findTestObject('Comet/p-dropdownitem li'), idxService)
 
+WebUI.click(findTestObject('Comet/btn containsText', [('txtBtn') : 'Search']))
+
+WebUI.takeFullPageScreenshot()
 
