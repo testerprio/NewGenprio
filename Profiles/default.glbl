@@ -14,4 +14,9 @@
       <initValue>'https://comet.xl.co.id/login'</initValue>
       <name>URL_Comet</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.traveloka.com/en-id'</initValue>
+      <name>URL_Traveloka</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

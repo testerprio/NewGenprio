@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CaseRegistrationMobile Positivecase,Chrome 125.0.0.0,,,2024-06-17 08:56:09,2024-06-17 09:01:14,5m - 5.033s,FAILED
+,,,,,,,
+Test Cases/MAIN/WebSupport/CaseRegistration Mobile,Chrome 125.0.0.0,,,2024-06-17 08:58:34,2024-06-17 08:59:06,32.082s,FAILED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Registration""]))",Chrome 125.0.0.0,,,2024-06-17 08:58:34,2024-06-17 08:59:06,32.067s,FAILED
+,,,,,,,
+Test Cases/MAIN/WebSupport/CaseRegistration Mobile,Chrome 125.0.0.0,,,2024-06-17 09:00:42,2024-06-17 09:01:14,31.873s,FAILED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Registration""]))",Chrome 125.0.0.0,,,2024-06-17 09:00:42,2024-06-17 09:01:14,31.862s,FAILED

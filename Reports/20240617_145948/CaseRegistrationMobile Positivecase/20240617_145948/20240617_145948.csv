@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CaseRegistrationMobile Positivecase,Chrome 125.0.0.0,,,2024-06-17 15:00:00,2024-06-17 15:00:35,35.209s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/CaseRegistration Mobile,Chrome 125.0.0.0,,,2024-06-17 15:00:18,2024-06-17 15:00:27,8.678s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Registration""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:19,2024-06-17 15:00:20,0.564s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""Case Registration""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:20,2024-06-17 15:00:20,0.491s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":CaseType]))",Chrome 125.0.0.0,,,2024-06-17 15:00:20,2024-06-17 15:00:21,0.648s,PASSED
+"setText(findTestObject(""Comet/input formcontrolname"", [""txtInput"":""referenceId""]), refid)",Chrome 125.0.0.0,,,2024-06-17 15:00:21,2024-06-17 15:00:23,2.610s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:23,2024-06-17 15:00:24,0.661s,PASSED
+takeScreenshot(),Chrome 125.0.0.0,,,2024-06-17 15:00:24,2024-06-17 15:00:25,1.273s,PASSED
+"click(findTestObject(""Comet/iconDetail""))",Chrome 125.0.0.0,,,2024-06-17 15:00:25,2024-06-17 15:00:26,0.708s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""detailCaseRegistration"")",Chrome 125.0.0.0,,,2024-06-17 15:00:26,2024-06-17 15:00:27,1.098s,PASSED
+,,,,,,,
+Test Cases/MAIN/WebSupport/CaseRegistration Mobile,Chrome 125.0.0.0,,,2024-06-17 15:00:27,2024-06-17 15:00:35,7.790s,PASSED
+"click(findTestObject(""Comet/mainMenu"", [""txt"":""Customer Registration""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:27,2024-06-17 15:00:28,0.991s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":""Case Registration""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:28,2024-06-17 15:00:29,0.599s,PASSED
+"click(findTestObject(""Comet/mainMenu child"", [""txtMenu"":CaseType]))",Chrome 125.0.0.0,,,2024-06-17 15:00:29,2024-06-17 15:00:29,0.636s,PASSED
+"setText(findTestObject(""Comet/input formcontrolname"", [""txtInput"":""referenceId""]), refid)",Chrome 125.0.0.0,,,2024-06-17 15:00:29,2024-06-17 15:00:32,2.290s,PASSED
+"click(findTestObject(""Comet/btn containsText"", [""txtBtn"":""Search""]))",Chrome 125.0.0.0,,,2024-06-17 15:00:32,2024-06-17 15:00:32,0.538s,PASSED
+takeScreenshot(),Chrome 125.0.0.0,,,2024-06-17 15:00:32,2024-06-17 15:00:33,1.162s,PASSED
+"click(findTestObject(""Comet/iconDetail""))",Chrome 125.0.0.0,,,2024-06-17 15:00:33,2024-06-17 15:00:34,0.630s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""detailCaseRegistration"")",Chrome 125.0.0.0,,,2024-06-17 15:00:34,2024-06-17 15:00:35,0.891s,PASSED

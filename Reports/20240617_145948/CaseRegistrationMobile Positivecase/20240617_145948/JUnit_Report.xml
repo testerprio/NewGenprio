@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CaseRegistrationMobile Positivecase" time="35.209" tests="2" failures="0" errors="0">
+   <testsuite name="CaseRegistrationMobile Positivecase" tests="2" failures="0" errors="0" time="35.209" skipped="0" timestamp="2024-06-17 15:00:00" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/CaseRegistrationMobile Positivecase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948\\execution0.log"/>
+         <property name="attachments" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948\\1718611225596.png, keyes\keyes-detailCaseRegistration.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948\\1718611233771.png, keyes\keyes-detailCaseRegistration.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="sessionId" value="913cfd4075083db1d3bb979853022b09"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/WebSupport/CaseRegistration Mobile" time="8.678" classname="Test Cases/MAIN/WebSupport/CaseRegistration Mobile" status="PASSED">
+         <system-out><![CDATA[2024-06-17 15:00:18 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/CaseRegistration Mobile: Test Cases/MAIN/WebSupport/CaseRegistration Mobile
+
+2024-06-17 15:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Registration"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-17 15:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-17 15:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Case Registration"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":CaseType])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:21 - [TEST_STEP][PASSED] - setText(findTestObject("Comet/input formcontrolname", ["txtInput":"referenceId"]), refid): Text '2673854' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-17 15:00:23 - [MESSAGE][PASSED] - Text '2673854' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-17 15:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-17 15:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-17 15:00:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-06-17 15:00:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948\\1718611225596.png]]
+
+2024-06-17 15:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Comet/iconDetail")): Object: 'Object Repository/Comet/iconDetail' is clicked on
+
+2024-06-17 15:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/iconDetail' is clicked on
+
+2024-06-17 15:00:26 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("detailCaseRegistration"): Taking screenshot successfully
+
+2024-06-17 15:00:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-17 15:00:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-detailCaseRegistration.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/CaseRegistration Mobile" time="7.79" classname="Test Cases/MAIN/WebSupport/CaseRegistration Mobile" status="PASSED">
+         <system-out><![CDATA[2024-06-17 15:00:27 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/CaseRegistration Mobile: Test Cases/MAIN/WebSupport/CaseRegistration Mobile
+
+2024-06-17 15:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Registration"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-17 15:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+2024-06-17 15:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Case Registration"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":CaseType])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+2024-06-17 15:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Comet/input formcontrolname", ["txtInput":"referenceId"]), refid): Text '2673828' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-17 15:00:32 - [MESSAGE][PASSED] - Text '2673828' is set on object 'Object Repository/Comet/input formcontrolname'
+
+2024-06-17 15:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-17 15:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+2024-06-17 15:00:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-06-17 15:00:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240617_145948\\CaseRegistrationMobile Positivecase\\20240617_145948\\1718611233771.png]]
+
+2024-06-17 15:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Comet/iconDetail")): Object: 'Object Repository/Comet/iconDetail' is clicked on
+
+2024-06-17 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/iconDetail' is clicked on
+
+2024-06-17 15:00:34 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("detailCaseRegistration"): Taking screenshot successfully
+
+2024-06-17 15:00:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-17 15:00:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-detailCaseRegistration.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-17 15:00:00 - [TEST_SUITE][PASSED] - CaseRegistrationMobile Positivecase: Test Cases/MAIN/WebSupport/CaseRegistration Mobile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CaseRegistration Mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>751a6249-1d86-4622-86de-8a04586af904</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5abff295-d900-4d8e-ab21-b8eb38b48adf</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CustReg</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5abff295-d900-4d8e-ab21-b8eb38b48adf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Refid</value>
+      <variableId>c6ec761c-e784-4cc4-8e60-c4504841c2a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5abff295-d900-4d8e-ab21-b8eb38b48adf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CaseType</value>
+      <variableId>6985d218-c9e1-4880-b13f-dfe05abd5ca2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2668257'</defaultValue>
+      <description></description>
+      <id>c6ec761c-e784-4cc4-8e60-c4504841c2a2</id>
+      <masked>false</masked>
+      <name>refid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6985d218-c9e1-4880-b13f-dfe05abd5ca2</id>
+      <masked>false</masked>
+      <name>CaseType</name>
+   </variable>
+</TestCaseEntity>
