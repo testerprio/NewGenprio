@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BookingOnline" time="115.371" tests="2" failures="0" errors="0">
+   <testsuite name="BookingOnline" tests="2" failures="0" errors="0" time="115.371" skipped="0" timestamp="2024-06-19 13:15:59" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/BookingOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_131544\\BookingOnline\\20240619_131544"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_131544\\BookingOnline\\20240619_131544\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-bookingFlight page.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_131544\\BookingOnline\\20240619_131544\\1718777842471.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_131544\\BookingOnline\\20240619_131544\\1718777866776.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="b5adb9f79a6a9d9b705912eea8ff0bab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/Traveloka/BookingFlight" time="34.647" classname="Test Cases/MAIN/Traveloka/BookingFlight" status="PASSED">
+         <system-out><![CDATA[2024-06-19 13:16:00 - [TEST_CASE][PASSED] - Test Cases/MAIN/Traveloka/BookingFlight: Test Cases/MAIN/Traveloka/BookingFlight
+
+2024-06-19 13:16:01 - [TEST_STEP][PASSED] - openBrowser(URL_Traveloka): Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+2024-06-19 13:16:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-06-19 13:16:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-19 13:16:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+2024-06-19 13:16:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-19 13:16:09 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-19 13:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/productNav", ["hrfContains":"flight"])): Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+2024-06-19 13:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+2024-06-19 13:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"input-departure"]), departure): Text 'Malaysia' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:18 - [MESSAGE][PASSED] - Text 'Malaysia' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"input-departure"]), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:20 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"input-destination"]), destiny): Text 'Singapure' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:22 - [MESSAGE][PASSED] - Text 'Singapure' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"input-destination"]), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:23 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"passengers-input"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"passengers-stepper-plus-adult", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/div containsText", ["txt":"Done"])): Object: 'Object Repository/Traveloka/div containsText' is clicked on
+
+2024-06-19 13:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/div containsText' is clicked on
+
+2024-06-19 13:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"date-input"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"date-input"]), Keys.chord(ARROW_RIGHT, ARROW_RIGHT, ENTER)): Keys 'RIGHT + RIGHT + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:28 - [MESSAGE][PASSED] - Keys 'RIGHT + RIGHT + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/Flight selectSeatclass")): Object: 'Object Repository/Traveloka/Flight selectSeatclass' is clicked on
+
+2024-06-19 13:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/Flight selectSeatclass' is clicked on
+
+2024-06-19 13:16:28 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Traveloka/div atRole", ["roleName":"option"])): SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 13:16:29 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 13:16:29 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("bookingFlight page"): Taking screenshot successfully
+
+2024-06-19 13:16:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-19 13:16:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-bookingFlight page.png]]
+
+2024-06-19 13:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/Flight btnSearch")): Object: 'Object Repository/Traveloka/Flight btnSearch' is clicked on
+
+2024-06-19 13:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/Flight btnSearch' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/Traveloka/BookingHotel" time="32.467" classname="Test Cases/MAIN/Traveloka/BookingHotel" status="PASSED">
+         <system-out><![CDATA[2024-06-19 13:17:22 - [TEST_CASE][PASSED] - Test Cases/MAIN/Traveloka/BookingHotel: Test Cases/MAIN/Traveloka/BookingHotel
+
+2024-06-19 13:17:22 - [TEST_STEP][PASSED] - openBrowser(URL_Traveloka): Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+2024-06-19 13:17:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-06-19 13:17:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-06-19 13:17:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-19 13:17:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+2024-06-19 13:17:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-19 13:17:28 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-19 13:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/productNav", ["hrfContains":"hotel"])): Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+2024-06-19 13:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+2024-06-19 13:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"autocomplete"]), "Malang"): Text 'Malang' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:35 - [MESSAGE][PASSED] - Text 'Malang' is set on object 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"autocomplete"]), Keys.chord(TAB, TAB, ENTER)): Keys 'TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:36 - [MESSAGE][PASSED] - Keys 'TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"check-in-date"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"check-in-date"]), Keys.chord(TAB, TAB, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:39 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:39 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"duration-field"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"duration-field"]), Keys.chord(TAB, ENTER)): Keys 'TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:40 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+2024-06-19 13:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"occupancy-field"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-minus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"3"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"occupancy-child-age"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+2024-06-19 13:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"dropdown-menu-item", "idx":"3"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"occupancy-done-btn", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+2024-06-19 13:17:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2024-06-19 13:17:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-06-19 13:17:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_131544\\BookingOnline\\20240619_131544\\1718777866776.png]]
+
+2024-06-19 13:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/btn Search")): Object: 'Object Repository/Traveloka/btn Search' is clicked on
+
+2024-06-19 13:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/btn Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-19 13:15:59 - [TEST_SUITE][FAILED] - BookingOnline: Test Cases/MAIN/Traveloka/BookingHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Traveloka/inputFilter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at BookingHotel.run(BookingHotel:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718777744637.run(TempTestSuite1718777744637.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" value="Thu, 20 Jun 2024" aria-invalid="false" autocapitalize="sentences" autocomplete="on" autocorrect="on" dir="auto" spellcheck="true" class="css-11aywtz r-cwxd7f r-13awgt0 r-t1w4ow r-ubezar r-majxgm r-135wba7 r-bcqeeo r-1ny4l3l r-10paoce r-13n6l4s" style="font-size: 16px;" data-testid="check-in-date-field"> is not clickable at point (373, 166). Other element would receive the click: <div class="css-1dbjc4n r-1awozwy r-1ta3fxp r-18u37iz r-1wtj0ep r-zl2h9q">...</div>
+  (Session info: chrome=126.0.6478.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-PAESQ7A', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63336a2429c9d1f7068d543b0d39736f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-06-19 13:15:59 - [TEST_SUITE][FAILED] - BookingOnline: Test Cases/MAIN/Traveloka/BookingHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Traveloka/inputFilter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at BookingHotel.run(BookingHotel:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1718777744637.run(TempTestSuite1718777744637.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" value="Thu, 20 Jun 2024" aria-invalid="false" autocapitalize="sentences" autocomplete="on" autocorrect="on" dir="auto" spellcheck="true" class="css-11aywtz r-cwxd7f r-13awgt0 r-t1w4ow r-ubezar r-majxgm r-135wba7 r-bcqeeo r-1ny4l3l r-10paoce r-13n6l4s" style="font-size: 16px;" data-testid="check-in-date-field"> is not clickable at point (373, 166). Other element would receive the click: <div class="css-1dbjc4n r-1awozwy r-1ta3fxp r-18u37iz r-1wtj0ep r-zl2h9q">...</div>
+  (Session info: chrome=126.0.6478.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-PAESQ7A', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63336a2429c9d1f7068d543b0d39736f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

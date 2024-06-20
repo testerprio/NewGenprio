@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="XLCOnlineApproval Positivecase" time="30.442" tests="3" failures="0" errors="0">
+   <testsuite name="XLCOnlineApproval Positivecase" tests="3" failures="0" errors="0" time="30.442" skipped="0" timestamp="18-06-2024T17:55:32" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/XLCOnlineApproval Positivecase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\execution0.log"/>
+         <property name="attachments" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708151899.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708158907.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708162723.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="acfab1c48e036f14b6aa79c883c76e1e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="3.418" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="PASSED">
+         <system-out><![CDATA[18-06-2024T17:55:48 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching
+
+18-06-2024T17:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:55:50 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:55:51 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Comet/p-dropdownitem li
+
+18-06-2024T17:55:51 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:55:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-06-2024T17:55:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-06-2024T17:55:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708151899.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="6.971" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="PASSED">
+         <system-out><![CDATA[18-06-2024T17:55:52 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching
+
+18-06-2024T17:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:55:57 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:55:58 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Comet/p-dropdownitem li
+
+18-06-2024T17:55:58 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:55:58 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:55:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-06-2024T17:55:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-06-2024T17:55:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708158907.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/WebSupport/XLCApproval Searching" time="3.833" classname="Test Cases/MAIN/WebSupport/XLCApproval Searching" status="PASSED">
+         <system-out><![CDATA[18-06-2024T17:55:59 - [TEST_CASE][PASSED] - Test Cases/MAIN/WebSupport/XLCApproval Searching: Test Cases/MAIN/WebSupport/XLCApproval Searching
+
+18-06-2024T17:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu", ["txt":"Customer Support"])): Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu' is clicked on
+
+18-06-2024T17:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Comet/mainMenu child", ["txtMenu":"Center Approval"])): Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/mainMenu child' is clicked on
+
+18-06-2024T17:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Comet/p-dropdown fcn", ["ddName":"serviceType"])): Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/p-dropdown fcn' is clicked on
+
+18-06-2024T17:56:01 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Comet/p-dropdownitem li"), idxService): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:56:02 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Comet/p-dropdownitem li
+
+18-06-2024T17:56:02 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+18-06-2024T17:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Comet/btn containsText", ["txtBtn":"Search"])): Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Comet/btn containsText' is clicked on
+
+18-06-2024T17:56:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-06-2024T17:56:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-06-2024T17:56:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240618_175515\\XLCOnlineApproval Positivecase\\20240618_175522\\1718708162723.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-06-2024T17:55:32 - [TEST_SUITE][PASSED] - XLCOnlineApproval Positivecase: Test Cases/MAIN/WebSupport/XLCApproval Searching]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

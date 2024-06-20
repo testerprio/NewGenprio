@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookingOnline,Windows - Firefox 124.0,,,2024-06-19 13:48:14,2024-06-19 14:00:34,12m - 19.983s,FAILED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingFlight,Windows - Firefox 124.0,,,2024-06-19 13:48:15,2024-06-19 13:51:57,3m - 42.047s,PASSED
+openBrowser(URL_Traveloka),Windows - Firefox 124.0,,,2024-06-19 13:48:16,2024-06-19 13:48:57,41.674s,PASSED
+maximizeWindow(),Windows - Firefox 124.0,,,2024-06-19 13:48:57,2024-06-19 13:48:59,1.404s,PASSED
+"click(findTestObject(""Traveloka/productNav"", [""hrfContains"":""flight""]))",Windows - Firefox 124.0,,,2024-06-19 13:48:59,2024-06-19 13:49:05,6.424s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-departure""]), departure)",Windows - Firefox 124.0,,,2024-06-19 13:49:05,2024-06-19 13:49:58,52.523s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-departure""]), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Windows - Firefox 124.0,,,2024-06-19 13:49:58,2024-06-19 13:50:02,4.333s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-destination""]), destiny)",Windows - Firefox 124.0,,,2024-06-19 13:50:02,2024-06-19 13:50:09,7.500s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-destination""]), Keys.chord(ARROW_DOWN, ENTER))",Windows - Firefox 124.0,,,2024-06-19 13:50:09,2024-06-19 13:50:13,3.421s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""passengers-input""]))",Windows - Firefox 124.0,,,2024-06-19 13:50:13,2024-06-19 13:50:17,4.215s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""passengers-stepper-plus-adult"", ""idx"":""1""]))",Windows - Firefox 124.0,,,2024-06-19 13:50:17,2024-06-19 13:50:21,4.068s,PASSED
+"click(findTestObject(""Traveloka/div containsText"", [""txt"":""Done""]))",Windows - Firefox 124.0,,,2024-06-19 13:50:21,2024-06-19 13:50:25,4.089s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""date-input""]))",Windows - Firefox 124.0,,,2024-06-19 13:50:25,2024-06-19 13:50:29,3.661s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""date-input""]), Keys.chord(ARROW_RIGHT, ARROW_RIGHT, ENTER))",Windows - Firefox 124.0,,,2024-06-19 13:50:29,2024-06-19 13:50:32,3.528s,PASSED
+"click(findTestObject(""Traveloka/Flight selectSeatclass""))",Windows - Firefox 124.0,,,2024-06-19 13:50:32,2024-06-19 13:50:37,4.205s,PASSED
+"SupportMethod.selectRandomlyListobject(findTestObject(""Traveloka/div atRole"", [""roleName"":""option""]))",Windows - Firefox 124.0,,,2024-06-19 13:50:37,2024-06-19 13:50:41,4.380s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""bookingFlight page"")",Windows - Firefox 124.0,,,2024-06-19 13:50:41,2024-06-19 13:51:53,1m - 11.757s,PASSED
+"click(findTestObject(""Traveloka/Flight btnSearch""))",Windows - Firefox 124.0,,,2024-06-19 13:51:53,2024-06-19 13:51:57,4.072s,PASSED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingHotel,Windows - Firefox 124.0,,,2024-06-19 13:58:25,2024-06-19 14:00:34,2m - 9.559s,FAILED
+openBrowser(URL_Traveloka),Windows - Firefox 124.0,,,2024-06-19 13:58:25,2024-06-19 13:59:32,1m - 6.705s,PASSED
+maximizeWindow(),Windows - Firefox 124.0,,,2024-06-19 13:59:32,2024-06-19 13:59:33,1.547s,PASSED
+"click(findTestObject(""Traveloka/productNav"", [""hrfContains"":""hotel""]))",Windows - Firefox 124.0,,,2024-06-19 13:59:33,2024-06-19 13:59:41,7.475s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""autocomplete""]), ""Malang"")",Windows - Firefox 124.0,,,2024-06-19 13:59:41,2024-06-19 13:59:50,9.328s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""autocomplete""]), Keys.chord(TAB, TAB, ENTER))",Windows - Firefox 124.0,,,2024-06-19 13:59:50,2024-06-19 13:59:55,4.663s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""check-in-date""]))",Windows - Firefox 124.0,,,2024-06-19 13:59:55,2024-06-19 14:00:34,39.795s,FAILED

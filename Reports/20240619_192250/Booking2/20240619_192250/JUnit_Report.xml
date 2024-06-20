@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Booking2" time="26.437" tests="1" failures="0" errors="0">
+   <testsuite name="Booking2" tests="1" failures="0" errors="0" time="26.437" skipped="0" timestamp="2024-06-19 19:23:01" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/Booking2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_192250\\Booking2\\20240619_192250"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_192250\\Booking2\\20240619_192250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="33eb33519a6b8b75c7fbaeeb06ea7672"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/Tiketdotcom/Booking Hotel" time="25.999" classname="Test Cases/MAIN/Tiketdotcom/Booking Hotel" status="PASSED">
+         <system-out><![CDATA[2024-06-19 19:23:02 - [TEST_CASE][PASSED] - Test Cases/MAIN/Tiketdotcom/Booking Hotel: Test Cases/MAIN/Tiketdotcom/Booking Hotel
+
+2024-06-19 19:23:02 - [TEST_STEP][PASSED] - openBrowser(URL_Tiket): Browser is opened with url: 'https://www.tiket.com/'
+
+2024-06-19 19:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-06-19 19:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-19 19:23:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.tiket.com/'
+
+2024-06-19 19:23:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-19 19:23:11 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-19 19:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/mainProduct", ["menu":"hotel"])): Object: 'Object Repository/Tiketdotcom/mainProduct' is clicked on
+
+2024-06-19 19:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/mainProduct' is clicked on
+
+2024-06-19 19:23:16 - [TEST_STEP][PASSED] - OtherKeyword.allowAllertPermission(): OtherKeyword.allowAllertPermission is PASSED
+
+2024-06-19 19:23:17 - [MESSAGE][PASSED] - OtherKeyword.allowAllertPermission is PASSED
+
+2024-06-19 19:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/div atDatatest", ["divData":"destination-input"])): Object: 'Object Repository/Tiketdotcom/div atDatatest' is clicked on
+
+2024-06-19 19:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/div atDatatest' is clicked on
+
+2024-06-19 19:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("Tiketdotcom/input atDatatest", ["inputTxt":"destination-search-box"]), City): Text 'Medan' is set on object 'Object Repository/Tiketdotcom/input atDatatest'
+
+2024-06-19 19:23:20 - [MESSAGE][PASSED] - Text 'Medan' is set on object 'Object Repository/Tiketdotcom/input atDatatest'
+
+2024-06-19 19:23:20 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Tiketdotcom/div atDatatest", ["divData":"hotel-list-item"])): SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 19:23:22 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 19:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/div containsClass", ["divClass":"input_date"])): Object: 'Object Repository/Tiketdotcom/div containsClass' is clicked on
+
+2024-06-19 19:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/div containsClass' is clicked on
+
+2024-06-19 19:23:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"Day_day_select"]), Keys.chord(TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Tiketdotcom/btn containsClass'
+
+2024-06-19 19:23:24 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Tiketdotcom/btn containsClass'
+
+2024-06-19 19:23:24 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Tiketdotcom/div containsClass", ["divClass":"passenger_amount"])): SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 19:23:25 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+2024-06-19 19:23:25 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"QuantityEditor"]), "4"): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+2024-06-19 19:23:26 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+2024-06-19 19:23:26 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"QuantityEditor"]), "4"): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+2024-06-19 19:23:26 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+2024-06-19 19:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/btn contains", ["attr":"text()", "value":"Selesai"])): Object: 'Object Repository/Tiketdotcom/btn contains' is clicked on
+
+2024-06-19 19:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/btn contains' is clicked on
+
+2024-06-19 19:23:27 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"submit"])): Object: 'Object Repository/Tiketdotcom/btn containsClass' is clicked on
+
+2024-06-19 19:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/btn containsClass' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-19 19:23:01 - [TEST_SUITE][PASSED] - Booking2: Test Cases/MAIN/Tiketdotcom/Booking Hotel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

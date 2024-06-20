@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookingOnline,Chrome 126.0.0.0,,,19-06-2024 19:47:46,19-06-2024 19:48:44,58.278s,PASSED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingFlight,Chrome 126.0.0.0,,,19-06-2024 19:47:46,19-06-2024 19:48:15,28.725s,PASSED
+openBrowser(URL_Traveloka),Chrome 126.0.0.0,,,19-06-2024 19:47:47,19-06-2024 19:47:54,7.236s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-06-2024 19:47:54,19-06-2024 19:47:54,0.221s,PASSED
+"click(findTestObject(""Traveloka/productNav"", [""hrfContains"":""flight""]))",Chrome 126.0.0.0,,,19-06-2024 19:47:54,19-06-2024 19:48:00,5.710s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-departure""]), departure)",Chrome 126.0.0.0,,,19-06-2024 19:48:00,19-06-2024 19:48:03,3.221s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-departure""]), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:03,19-06-2024 19:48:04,0.512s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-destination""]), destiny)",Chrome 126.0.0.0,,,19-06-2024 19:48:04,19-06-2024 19:48:06,2.032s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""input-destination""]), Keys.chord(ARROW_DOWN, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:06,19-06-2024 19:48:06,0.544s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""passengers-input""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:06,19-06-2024 19:48:07,0.847s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""passengers-stepper-plus-adult"", ""idx"":""1""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:07,19-06-2024 19:48:08,0.860s,PASSED
+"click(findTestObject(""Traveloka/div containsText"", [""txt"":""Done""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:08,19-06-2024 19:48:09,0.663s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""date-input""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:09,19-06-2024 19:48:09,0.620s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""date-input""]), Keys.chord(ARROW_RIGHT, ARROW_RIGHT, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:09,19-06-2024 19:48:10,0.746s,PASSED
+"click(findTestObject(""Traveloka/Flight selectSeatclass""))",Chrome 126.0.0.0,,,19-06-2024 19:48:10,19-06-2024 19:48:11,0.640s,PASSED
+"SupportMethod.selectRandomlyListobject(findTestObject(""Traveloka/div atRole"", [""roleName"":""option""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:11,19-06-2024 19:48:11,0.632s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""bookingFlight page"")",Chrome 126.0.0.0,,,19-06-2024 19:48:11,19-06-2024 19:48:14,2.948s,PASSED
+"click(findTestObject(""Traveloka/Flight btnSearch""))",Chrome 126.0.0.0,,,19-06-2024 19:48:14,19-06-2024 19:48:15,0.534s,PASSED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingHotel,Chrome 126.0.0.0,,,19-06-2024 19:48:15,19-06-2024 19:48:44,29.232s,PASSED
+openBrowser(URL_Traveloka),Chrome 126.0.0.0,,,19-06-2024 19:48:15,19-06-2024 19:48:21,5.407s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-06-2024 19:48:21,19-06-2024 19:48:21,0.130s,PASSED
+"click(findTestObject(""Traveloka/productNav"", [""hrfContains"":""hotel""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:21,19-06-2024 19:48:27,6.138s,PASSED
+"setText(findTestObject(""Traveloka/inputFilter"", [""inputType"":""autocomplete""]), ""Malang"")",Chrome 126.0.0.0,,,19-06-2024 19:48:27,19-06-2024 19:48:28,0.883s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""autocomplete""]), Keys.chord(TAB, TAB, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:28,19-06-2024 19:48:29,1.327s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""check-in-date""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:29,19-06-2024 19:48:30,0.656s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""check-in-date""]), Keys.chord(TAB, TAB, TAB, TAB, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:30,19-06-2024 19:48:30,0.722s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""duration-field""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:30,19-06-2024 19:48:32,1.383s,PASSED
+"sendKeys(findTestObject(""Traveloka/inputFilter"", [""inputType"":""duration-field""]), Keys.chord(TAB, ENTER))",Chrome 126.0.0.0,,,19-06-2024 19:48:32,19-06-2024 19:48:32,0.360s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""occupancy-field""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:32,19-06-2024 19:48:33,0.634s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""stepper-plus"", ""idx"":""1""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:33,19-06-2024 19:48:33,0.499s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""stepper-plus"", ""idx"":""2""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:33,19-06-2024 19:48:34,0.603s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""stepper-plus"", ""idx"":""2""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:34,19-06-2024 19:48:35,0.670s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""stepper-minus"", ""idx"":""2""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:35,19-06-2024 19:48:35,0.585s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""stepper-plus"", ""idx"":""3""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:35,19-06-2024 19:48:36,0.405s,PASSED
+"click(findTestObject(""Traveloka/inputFilter"", [""inputType"":""occupancy-child-age""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:36,19-06-2024 19:48:36,0.620s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""dropdown-menu-item"", ""idx"":""3""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:36,19-06-2024 19:48:37,0.533s,PASSED
+"click(findTestObject(""Traveloka/editGuestRoom"", [""dataType"":""occupancy-done-btn"", ""idx"":""1""]))",Chrome 126.0.0.0,,,19-06-2024 19:48:37,19-06-2024 19:48:37,0.665s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,19-06-2024 19:48:37,19-06-2024 19:48:42,4.716s,PASSED
+"click(findTestObject(""Traveloka/btn Search""))",Chrome 126.0.0.0,,,19-06-2024 19:48:42,19-06-2024 19:48:44,1.939s,PASSED

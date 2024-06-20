@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Booking Hotel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d2764de-b587-47f5-a7a3-6966e4cae9a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b19636fb-2c35-424e-968e-76737c8d9129</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Medan'</defaultValue>
+      <description></description>
+      <id>b19636fb-2c35-424e-968e-76737c8d9129</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+</TestCaseEntity>

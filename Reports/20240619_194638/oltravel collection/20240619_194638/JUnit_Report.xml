@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oltravel collection" time="112.249" tests="3" failures="0" errors="0">
+   <testsuite name="Booking2" tests="1" failures="0" errors="0" time="27.562" skipped="0" timestamp="19-06-2024T19:47:04" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/Booking2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\Booking2\\20240619_194645"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\Booking2\\20240619_194645\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="5bd3f0ff5b26621a5bcdca29872cb5bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/Tiketdotcom/Booking Hotel" time="27.283" classname="Test Cases/MAIN/Tiketdotcom/Booking Hotel" status="PASSED">
+         <system-out><![CDATA[19-06-2024T19:47:04 - [TEST_CASE][PASSED] - Test Cases/MAIN/Tiketdotcom/Booking Hotel: Test Cases/MAIN/Tiketdotcom/Booking Hotel
+
+19-06-2024T19:47:05 - [TEST_STEP][PASSED] - openBrowser(URL_Tiket): Browser is opened with url: 'https://www.tiket.com/'
+
+19-06-2024T19:47:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T19:47:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T19:47:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.tiket.com/'
+
+19-06-2024T19:47:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-06-2024T19:47:15 - [MESSAGE][PASSED] - Current window maximized
+
+19-06-2024T19:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/mainProduct", ["menu":"hotel"])): Object: 'Object Repository/Tiketdotcom/mainProduct' is clicked on
+
+19-06-2024T19:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/mainProduct' is clicked on
+
+19-06-2024T19:47:21 - [TEST_STEP][PASSED] - OtherKeyword.allowAllertPermission(): OtherKeyword.allowAllertPermission is PASSED
+
+19-06-2024T19:47:22 - [MESSAGE][PASSED] - OtherKeyword.allowAllertPermission is PASSED
+
+19-06-2024T19:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/div atDatatest", ["divData":"destination-input"])): Object: 'Object Repository/Tiketdotcom/div atDatatest' is clicked on
+
+19-06-2024T19:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/div atDatatest' is clicked on
+
+19-06-2024T19:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tiketdotcom/input atDatatest", ["inputTxt":"destination-search-box"]), City): Text 'Medan' is set on object 'Object Repository/Tiketdotcom/input atDatatest'
+
+19-06-2024T19:47:25 - [MESSAGE][PASSED] - Text 'Medan' is set on object 'Object Repository/Tiketdotcom/input atDatatest'
+
+19-06-2024T19:47:25 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Tiketdotcom/div atDatatest", ["divData":"hotel-list-item"])): SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:47:27 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Tiketdotcom/div atDatatest
+
+19-06-2024T19:47:27 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/div containsClass", ["divClass":"input_date"])): Object: 'Object Repository/Tiketdotcom/div containsClass' is clicked on
+
+19-06-2024T19:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/div containsClass' is clicked on
+
+19-06-2024T19:47:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"Day_day_select"]), Keys.chord(TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Tiketdotcom/btn containsClass'
+
+19-06-2024T19:47:29 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Tiketdotcom/btn containsClass'
+
+19-06-2024T19:47:29 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Tiketdotcom/div containsClass", ["divClass":"passenger_amount"])): SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:47:29 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Tiketdotcom/div containsClass
+
+19-06-2024T19:47:29 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:47:29 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"QuantityEditor"]), "4"): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+19-06-2024T19:47:30 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Tiketdotcom/btn containsClass
+
+19-06-2024T19:47:30 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+19-06-2024T19:47:30 - [TEST_STEP][PASSED] - OtherKeyword.selectObjectBasedOnIndex(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"QuantityEditor"]), "4"): OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+19-06-2024T19:47:30 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Tiketdotcom/btn containsClass
+
+19-06-2024T19:47:30 - [MESSAGE][PASSED] - OtherKeyword.selectObjectBasedOnIndex is PASSED
+
+19-06-2024T19:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/btn contains", ["attr":"text()", "value":"Selesai"])): Object: 'Object Repository/Tiketdotcom/btn contains' is clicked on
+
+19-06-2024T19:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/btn contains' is clicked on
+
+19-06-2024T19:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Tiketdotcom/btn containsClass", ["btnClass":"submit"])): Object: 'Object Repository/Tiketdotcom/btn containsClass' is clicked on
+
+19-06-2024T19:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Tiketdotcom/btn containsClass' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2024T19:47:04 - [TEST_SUITE][PASSED] - Booking2: Test Cases/MAIN/Tiketdotcom/Booking Hotel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="BookingOnline" tests="2" failures="0" errors="0" time="58.278" skipped="0" timestamp="19-06-2024T19:47:46" hostname="LENOVO - DESKTOP-PAESQ7A" id="Test Suites/BookingOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\BookingOnline\\20240619_194651"/>
+         <property name="logFiles" value="E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\BookingOnline\\20240619_194651\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-bookingFlight page.png, E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\BookingOnline\\20240619_194651\\1718801317881.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PAESQ7A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="d87e091c5d5af575a8e8cbf40bef3644"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MAIN/Traveloka/BookingFlight" time="28.725" classname="Test Cases/MAIN/Traveloka/BookingFlight" status="PASSED">
+         <system-out><![CDATA[19-06-2024T19:47:46 - [TEST_CASE][PASSED] - Test Cases/MAIN/Traveloka/BookingFlight: Test Cases/MAIN/Traveloka/BookingFlight
+
+19-06-2024T19:47:47 - [TEST_STEP][PASSED] - openBrowser(URL_Traveloka): Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+19-06-2024T19:47:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T19:47:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T19:47:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+19-06-2024T19:47:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-06-2024T19:47:54 - [MESSAGE][PASSED] - Current window maximized
+
+19-06-2024T19:47:54 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/productNav", ["hrfContains":"flight"])): Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+19-06-2024T19:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+19-06-2024T19:48:00 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"input-departure"]), departure): Text 'Malaysia' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:03 - [MESSAGE][PASSED] - Text 'Malaysia' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"input-departure"]), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:04 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:04 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"input-destination"]), destiny): Text 'Singapure' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:06 - [MESSAGE][PASSED] - Text 'Singapure' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"input-destination"]), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:06 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"passengers-input"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"passengers-stepper-plus-adult", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/div containsText", ["txt":"Done"])): Object: 'Object Repository/Traveloka/div containsText' is clicked on
+
+19-06-2024T19:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/div containsText' is clicked on
+
+19-06-2024T19:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"date-input"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"date-input"]), Keys.chord(ARROW_RIGHT, ARROW_RIGHT, ENTER)): Keys 'RIGHT + RIGHT + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:10 - [MESSAGE][PASSED] - Keys 'RIGHT + RIGHT + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/Flight selectSeatclass")): Object: 'Object Repository/Traveloka/Flight selectSeatclass' is clicked on
+
+19-06-2024T19:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/Flight selectSeatclass' is clicked on
+
+19-06-2024T19:48:11 - [TEST_STEP][PASSED] - SupportMethod.selectRandomlyListobject(findTestObject("Traveloka/div atRole", ["roleName":"option"])): SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:48:11 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Traveloka/div atRole
+
+19-06-2024T19:48:11 - [MESSAGE][PASSED] - SupportMethod.selectRandomlyListobject is PASSED
+
+19-06-2024T19:48:11 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("bookingFlight page"): Taking screenshot successfully
+
+19-06-2024T19:48:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T19:48:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-bookingFlight page.png]]
+
+19-06-2024T19:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/Flight btnSearch")): Object: 'Object Repository/Traveloka/Flight btnSearch' is clicked on
+
+19-06-2024T19:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/Flight btnSearch' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MAIN/Traveloka/BookingHotel" time="29.232" classname="Test Cases/MAIN/Traveloka/BookingHotel" status="PASSED">
+         <system-out><![CDATA[19-06-2024T19:48:15 - [TEST_CASE][PASSED] - Test Cases/MAIN/Traveloka/BookingHotel: Test Cases/MAIN/Traveloka/BookingHotel
+
+19-06-2024T19:48:15 - [TEST_STEP][PASSED] - openBrowser(URL_Traveloka): Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+19-06-2024T19:48:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-06-2024T19:48:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T19:48:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T19:48:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/en-id'
+
+19-06-2024T19:48:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-06-2024T19:48:21 - [MESSAGE][PASSED] - Current window maximized
+
+19-06-2024T19:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/productNav", ["hrfContains":"hotel"])): Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+19-06-2024T19:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/productNav' is clicked on
+
+19-06-2024T19:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("Traveloka/inputFilter", ["inputType":"autocomplete"]), "Malang"): Text 'Malang' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:28 - [MESSAGE][PASSED] - Text 'Malang' is set on object 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"autocomplete"]), Keys.chord(TAB, TAB, ENTER)): Keys 'TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:29 - [MESSAGE][PASSED] - Keys 'TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"check-in-date"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"check-in-date"]), Keys.chord(TAB, TAB, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:30 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"duration-field"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Traveloka/inputFilter", ["inputType":"duration-field"]), Keys.chord(TAB, ENTER)): Keys 'TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:32 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'Object Repository/Traveloka/inputFilter'
+
+19-06-2024T19:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"occupancy-field"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-minus", "idx":"2"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"stepper-plus", "idx":"3"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/inputFilter", ["inputType":"occupancy-child-age"])): Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/inputFilter' is clicked on
+
+19-06-2024T19:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"dropdown-menu-item", "idx":"3"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/editGuestRoom", ["dataType":"occupancy-done-btn", "idx":"1"])): Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/editGuestRoom' is clicked on
+
+19-06-2024T19:48:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+19-06-2024T19:48:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T19:48:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\- FILE ELVIA\\Katalon\\PROJECT\\NewGenprio\\Reports\\20240619_194638\\BookingOnline\\20240619_194651\\1718801317881.png]]
+
+19-06-2024T19:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Traveloka/btn Search")): Object: 'Object Repository/Traveloka/btn Search' is clicked on
+
+19-06-2024T19:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Traveloka/btn Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2024T19:47:46 - [TEST_SUITE][PASSED] - BookingOnline: Test Cases/MAIN/Traveloka/BookingHotel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking2,Chrome 126.0.0.0,,,2024-06-19 19:23:01,2024-06-19 19:23:28,26.437s,PASSED
+,,,,,,,
+Test Cases/MAIN/Tiketdotcom/Booking Hotel,Chrome 126.0.0.0,,,2024-06-19 19:23:02,2024-06-19 19:23:28,25.999s,PASSED
+openBrowser(URL_Tiket),Chrome 126.0.0.0,,,2024-06-19 19:23:02,2024-06-19 19:23:07,4.019s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-06-19 19:23:07,2024-06-19 19:23:11,4.046s,PASSED
+"click(findTestObject(""Tiketdotcom/mainProduct"", [""menu"":""hotel""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:11,2024-06-19 19:23:16,5.144s,PASSED
+OtherKeyword.allowAllertPermission(),Chrome 126.0.0.0,,,2024-06-19 19:23:16,2024-06-19 19:23:17,1.139s,PASSED
+"click(findTestObject(""Tiketdotcom/div atDatatest"", [""divData"":""destination-input""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:17,2024-06-19 19:23:18,0.971s,PASSED
+"setText(findTestObject(""Tiketdotcom/input atDatatest"", [""inputTxt"":""destination-search-box""]), City)",Chrome 126.0.0.0,,,2024-06-19 19:23:18,2024-06-19 19:23:20,2.358s,PASSED
+"SupportMethod.selectRandomlyListobject(findTestObject(""Tiketdotcom/div atDatatest"", [""divData"":""hotel-list-item""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:20,2024-06-19 19:23:22,1.438s,PASSED
+"click(findTestObject(""Tiketdotcom/div containsClass"", [""divClass"":""input_date""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:22,2024-06-19 19:23:23,1.182s,PASSED
+"sendKeys(findTestObject(""Tiketdotcom/btn containsClass"", [""btnClass"":""Day_day_select""]), Keys.chord(TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER))",Chrome 126.0.0.0,,,2024-06-19 19:23:23,2024-06-19 19:23:24,0.967s,PASSED
+"SupportMethod.selectRandomlyListobject(findTestObject(""Tiketdotcom/div containsClass"", [""divClass"":""passenger_amount""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:24,2024-06-19 19:23:25,1.163s,PASSED
+"OtherKeyword.selectObjectBasedOnIndex(findTestObject(""Tiketdotcom/btn containsClass"", [""btnClass"":""QuantityEditor""]), ""4"")",Chrome 126.0.0.0,,,2024-06-19 19:23:25,2024-06-19 19:23:26,0.676s,PASSED
+"OtherKeyword.selectObjectBasedOnIndex(findTestObject(""Tiketdotcom/btn containsClass"", [""btnClass"":""QuantityEditor""]), ""4"")",Chrome 126.0.0.0,,,2024-06-19 19:23:26,2024-06-19 19:23:26,0.554s,PASSED
+"click(findTestObject(""Tiketdotcom/btn contains"", [""attr"":""text()"", ""value"":""Selesai""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:26,2024-06-19 19:23:27,0.798s,PASSED
+"click(findTestObject(""Tiketdotcom/btn containsClass"", [""btnClass"":""submit""]))",Chrome 126.0.0.0,,,2024-06-19 19:23:27,2024-06-19 19:23:28,0.972s,PASSED

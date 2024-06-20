@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookingOnline,Windows - Chrome 124.0.0.0,,,2024-06-19 13:26:10,2024-06-19 13:46:29,20m - 19.007s,FAILED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingFlight,Windows - Chrome 124.0.0.0,,,2024-06-19 13:46:28,2024-06-19 13:46:28,0.272s,FAILED
+openBrowser(URL_Traveloka),Windows - Chrome 124.0.0.0,,,2024-06-19 13:46:28,2024-06-19 13:46:28,0.066s,FAILED
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingHotel,Windows - Chrome 124.0.0.0,,,2024-06-19 13:46:29,2024-06-19 13:46:29,0.071s,FAILED
+openBrowser(URL_Traveloka),Windows - Chrome 124.0.0.0,,,2024-06-19 13:46:29,2024-06-19 13:46:29,0.039s,FAILED

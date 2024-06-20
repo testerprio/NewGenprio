@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "5A6ACF7E8B624D2E2FB98AEDFEFB4B5E",
+  "keywordFileContentHash": "18AB5544E51581CEE485EB3107A1EE6A",
   "keywordClasses": [
     {
       "name": "OtherKeyword",
@@ -35,6 +35,11 @@
             }
           ],
           "javadoc": "/**\r\n\t * select webElement based on index\r\n\t * @param testObject list of webElement\r\n\t * @param index \r\n\t * @return select the webElement\r\n\t */"
+        },
+        {
+          "name": "allowAllertPermission",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Allow alert permission\r\n\t */"
         }
       ]
     }

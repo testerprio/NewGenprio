@@ -17,10 +17,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.WebElement
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import internal.GlobalVariable
 
 public class OtherKeyword {
 	
+	Robot robot = new Robot()
+
 	/**
 	 * select webElement based on index
 	 * @param testObject list of webElement
@@ -34,7 +38,15 @@ public class OtherKeyword {
 		arr[x].click()
 	}
 	
-
-	
-	
+	/**
+	 * Allow alert permission
+	 */
+	@Keyword
+	def allowAllertPermission() {
+		robot.delay(1000)
+		robot.keyPress(KeyEvent.VK_TAB)
+		robot.keyPress(KeyEvent.VK_TAB)
+		robot.keyPress(KeyEvent.VK_ENTER)
+		robot.keyRelease(KeyEvent.VK_ENTER)
+	}
 }

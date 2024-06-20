@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking2,,,,2024-06-19 19:42:58,2024-06-19 19:43:00,1.508s,ERROR
+,,,,,,,
+Test Cases/MAIN/Tiketdotcom/Booking Hotel,,,,2024-06-19 19:43:00,2024-06-19 19:43:00,0.053s,ERROR
+openBrowser(URL_Tiket),,,,2024-06-19 19:43:00,2024-06-19 19:43:00,0.011s,ERROR

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookingOnline,,,,2024-06-18 19:05:19,2024-06-18 19:05:21,2.319s,ERROR
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingFlight,,,,2024-06-18 19:05:20,2024-06-18 19:05:20,0.092s,ERROR
+openBrowser(URL_Traveloka),,,,2024-06-18 19:05:20,2024-06-18 19:05:20,0.005s,ERROR
+,,,,,,,
+Test Cases/MAIN/Traveloka/BookingHotel,,,,2024-06-18 19:05:21,2024-06-18 19:05:21,0.029s,ERROR
+openBrowser(URL_Traveloka),,,,2024-06-18 19:05:21,2024-06-18 19:05:21,0.012s,ERROR

@@ -33,7 +33,7 @@ class TestSuiteListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		CustomKeywords.'SupportMethod.loginToComet'(user, excriptPass)
+	//	CustomKeywords.'SupportMethod.loginToComet'(user, excriptPass)
 	}
 
 	/**
@@ -43,6 +43,6 @@ class TestSuiteListener {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
-		CustomKeywords.'SupportMethod.logoutFromComet'()
+	//	CustomKeywords.'SupportMethod.logoutFromComet'()
 	}
 }
